@@ -1,0 +1,5 @@
+{
+    "PORT": 5000,
+    "mongoURI": "mongodb+srv://snickersnasian:Moscow2021@cluster0.vtwol.mongodb.net/VN-Logistics?retryWrites=true&w=majority",
+    "jwtSecret": "rusvn2022"
+}
