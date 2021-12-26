@@ -3,9 +3,9 @@ import { Navbar } from '../components/Navbar';
 
 export const OrdersPage = () => {
   return (
-    <div>
+    <div className="orders-page-wrapper">
       <Navbar />
-      <h1>OrdersPage</h1>
+      <h1 className="orders-page-header">My orders</h1>
     </div>
   );
 }
