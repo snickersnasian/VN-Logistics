@@ -15,12 +15,13 @@ export const Navbar = () => {
         }
     }
 
+
     return (
 
         <div className="nav-wrapper">
             <nav>
                 <div className="logo">
-                    <img src={Logo} alt="" />
+                    <a href="/profile"><img src={Logo} alt="" /></a>
                 </div>
 
                 <div className="search-bar">
@@ -35,12 +36,14 @@ export const Navbar = () => {
                 </div>
 
                 <div className="my-orders">
-                    <button>my orders</button>
+                    <button>
+                    {'Đơn hàng'.toLowerCase()}
+                    </button>
                 </div>
 
                 <div className="logout">
                     <a className="logout__btn">
-                        LOGOUT
+                        {'đăng xuất'.toUpperCase()}
                     </a>
                 </div>
             </nav>

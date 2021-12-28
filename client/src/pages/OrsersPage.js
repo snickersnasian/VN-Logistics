@@ -3,9 +3,12 @@ import { Navbar } from '../components/Navbar';
 
 export const OrdersPage = () => {
   return (
-    <div className="orders-page-wrapper">
+    <div>
       <Navbar />
-      <h1 className="orders-page-header">My orders</h1>
+      <div className="orders-page-wrapper">
+        <h1 className="orders-page-header">Đơn hàng</h1>
+      </div>
+     
     </div>
   );
 }
